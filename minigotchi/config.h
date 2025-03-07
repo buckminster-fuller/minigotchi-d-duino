@@ -5,6 +5,8 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+#define USE_SSD1306WIRE
+
 #include "minigotchi.h"
 #include <Arduino.h>
 #include <EEPROM.h>
