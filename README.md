@@ -3,9 +3,13 @@ This is a modification to run minigotchi on d-duino (clone) dev boards. Uncommen
 ## Acknowledgments
 
 - **Original Project:** [minigotchi](https://github.com/dj1ch/minigotchi)
-- **Contributions:**  
+- **Contributions:**
+  - SSD1306Wire library for d-duino display support by [ThingPulse](https://github.com/ThingPulse/esp8266-oled-ssd1306). 
   - d-duino support for SSD1306Wire added by [buckminster_fuller](https://github.com/buckminster-fuller).
-  - Special thanks to ChatGPT for assistance in resolving compilation and conversion issues.
+  - Special thanks to ChatGPT-o3-mini-high for assistance in resolving compilation and conversion issues.
+
+
+    (never said i´m a coder 🤷🏻‍♂️).
 <details>
 <summary>original readme</summary>
 # ⚠️ Project Archived
