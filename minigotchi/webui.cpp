@@ -77,7 +77,7 @@ const char WebUI::html[] = R"rawliteral(
 </head>
 <body>
   <div class="big">
-    <h1 class="title">Welcome to the Captive Portal for the Minigotchi!</h1>
+    <h1 class="title">Welcome to the Captive Portal for the Minigotchi-d-duino!</h1>
     <div class="textbox">
       <p>This must be done on the first boot to ensure that the Minigotchi runs correctly!</p>
     </div>
@@ -98,7 +98,7 @@ const char WebUI::html[] = R"rawliteral(
         </form><br>
     </div>
   </div>
-  <footer>Made by <a href="https://github.com/dj1ch">@dj1ch</a></footer>
+  <footer>Made by <a href="https://github.com/dj1ch">@dj1ch</a> Modified by <a href="https://github.com/buckminster-fuller">@buckminster_fuller</a></footer>
 </body>
 </html>
 )rawliteral";
@@ -130,7 +130,7 @@ WebUI::WebUI() {
   Display::updateDisplay(mood.getIntense(), "Starting Web Server...");
 
   WiFi.mode(WIFI_AP);
-  WiFi.softAP(Config::ssid);
+  WiFi.softAP(Config::ssid, Config::pass);
 
   setupServer();
 
