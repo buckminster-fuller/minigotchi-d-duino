@@ -1,3 +1,7 @@
+This is a modification to run minigotchi on d-duino (clone) dev boards. Uncomment "#DEFINE USE_SSD1306WIRE" if you want to run it on other dev boards that need Adafruit_SSD1306 or Adafruit_SSD1305 libraries. 
+
+<details>
+<summary>original readme</summary>
 # ⚠️ Project Archived
 
 > [!WARNING]
@@ -98,4 +102,5 @@ See the [wiki](https://github.com/Pwnagotchi-Unofficial/minigotchi/wiki/Communic
 
 **Made with ❤️ by [@dj1ch](https://github.com/dj1ch) and the rest of the Pwnagotchi-Unofficial team!**
 
+</details>
 </details>
