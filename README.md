@@ -1,3 +1,5 @@
+<img src="images/IMG_4446.jpeg"></img>
+
 This is a modification to run minigotchi on d-duino (clone) dev boards. Uncomment "#DEFINE USE_SSD1306WIRE" if you want to run it on other dev boards that need Adafruit_SSD1306 or Adafruit_SSD1305 libraries. 
 
 ## Acknowledgments
