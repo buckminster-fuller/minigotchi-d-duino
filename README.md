@@ -1,5 +1,11 @@
 This is a modification to run minigotchi on d-duino (clone) dev boards. Uncomment "#DEFINE USE_SSD1306WIRE" if you want to run it on other dev boards that need Adafruit_SSD1306 or Adafruit_SSD1305 libraries. 
 
+## Acknowledgments
+
+- **Original Project:** [minigotchi](https://github.com/dj1ch/minigotchi)
+- **Contributions:**  
+  - d-duino support for SSD1306Wire added by [buckminster_fuller](https://github.com/buckminster-fuller).
+  - Special thanks to ChatGPT for assistance in resolving compilation and conversion issues.
 <details>
 <summary>original readme</summary>
 # ⚠️ Project Archived
